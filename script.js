@@ -19,13 +19,17 @@ function adicionaTarefa() {
 
 btn.addEventListener('click', adicionaTarefa);
 
-// function tarefaSelect(event) {
-//     event.target.classList.add('selected');
 
-// }
 function newselect(evnt) {
+    const tarefa = document.querySelector('.selected');
+
+    if (tarefa !== null) {
+        tarefa.classList.remove('selected');
+    }
     evnt.target.classList.add('selected');
 }
+//buscar quem tem a clsse selected,
+//se existi remover a classe desse elemento que tem selected
+//adicionar ao elemento que acabe ide clicar 
 
-// listaPai.addEventListener('click', tarefaSelect);
 listaPai.addEventListener('click', newselect);
