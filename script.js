@@ -6,10 +6,15 @@ document.body.appendChild(listaPai);
 const btn = document.createElement('button');
 btn.id = 'criar-tarefa'
 document.body.appendChild(btn);
-btn.innerText = 'New Achievement'
+btn.innerText = ' New Achievement '
+
+const btnClear = document.createElement('button');
+btnClear.id = 'apaga-tudo'
+document.body.appendChild(btnClear);
+btnClear.innerText = ' Clear '
+
 
 let = textBox = document.getElementById('texto-tarefa');
-// console.log(textBox);
 function adicionaTarefa() {
     const tarefa = document.createElement('li');
     tarefa.innerText = textBox.value;
@@ -44,3 +49,9 @@ function finalizado(evnt) {
 }
 
 listaPai.addEventListener('dblclick', finalizado);
+
+function faxina() {
+    listaPai.innerHTML = '';
+}
+
+btnClear.addEventListener('click', faxina);
