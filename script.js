@@ -28,8 +28,19 @@ function newselect(evnt) {
     }
     evnt.target.classList.add('selected');
 }
-//buscar quem tem a clsse selected,
-//se existi remover a classe desse elemento que tem selected
-//adicionar ao elemento que acabe ide clicar 
+
 
 listaPai.addEventListener('click', newselect);
+
+function finalizado(evnt) {
+
+    evnt.target.classList.toggle('completed');
+    // console.log('double click');
+    // if(evnt.target.classList.contains('completed') ){
+    //     evnt.target.classList.remove('completed');
+    // }else{
+    //     evnt.target.classList.add('completed');
+    // }
+}
+
+listaPai.addEventListener('dblclick', finalizado);
