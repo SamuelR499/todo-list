@@ -6,13 +6,17 @@ document.body.appendChild(listaPai);
 const btn = document.createElement('button');
 btn.id = 'criar-tarefa'
 document.body.appendChild(btn);
-btn.innerText = ' New Achievement '
+btn.innerText = ' New Achievement ';
 
 const btnClear = document.createElement('button');
-btnClear.id = 'apaga-tudo'
+btnClear.id = 'apaga-tudo';
 document.body.appendChild(btnClear);
-btnClear.innerText = ' Clear '
+btnClear.innerText = ' Clear ';
 
+const btnFinlzd = document.createElement('button');
+btnFinlzd.id = 'remover-finalizados';
+document.body.appendChild(btnFinlzd);
+btnFinlzd.innerText = ' Limpar finalizados ';
 
 let = textBox = document.getElementById('texto-tarefa');
 function adicionaTarefa() {
@@ -55,3 +59,11 @@ function faxina() {
 }
 
 btnClear.addEventListener('click', faxina);
+
+function tchauFinalizados() {
+    const concluidas = document.querySelectorAll('.completed');
+    for (let i = 0; i < concluidas.length; i++) {
+        concluidas[i].remove();
+    }
+}
+btnFinlzd.addEventListener('click', tchauFinalizados);

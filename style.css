@@ -7,6 +7,10 @@ header {
 h1 {
   padding-top: 25px;
 }
+#lista-tarefas {
+  background-color: bisque;
+  width: 500px;
+}
 #criar-tarefa {
   margin-right: 40px;
   background-color: burlywood;
@@ -17,6 +21,13 @@ h1 {
   background-color: burlywood;
   border-radius: 10px;
   border: 4px solid burlywood;
+  margin-right: 40px;
+}
+#remover-finalizados {
+  background-color: burlywood;
+  border-radius: 10px;
+  border: 4px solid burlywood;
+  margin-right: 40px;
 }
 
 body {
