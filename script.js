@@ -3,10 +3,7 @@ listaPai.id = 'lista-tarefas';
 
 document.body.appendChild(listaPai);
 
-const btn = document.createElement('button');
-btn.id = 'criar-tarefa'
-document.body.appendChild(btn);
-btn.innerText = ' New Achievement ';
+const btn = document.getElementById('criar-tarefa');
 
 const btnClear = document.createElement('button');
 btnClear.id = 'apaga-tudo';
@@ -67,3 +64,8 @@ function tchauFinalizados() {
     }
 }
 btnFinlzd.addEventListener('click', tchauFinalizados);
+
+// function save() {
+// listaOrdenada = document.getElementById('lista-tarefas')
+// }
+

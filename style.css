@@ -12,11 +12,19 @@ h1 {
   width: 500px;
 }
 #criar-tarefa {
-  margin-right: 40px;
+  margin-right: 10px;
   background-color: burlywood;
   border: 4px solid burlywood;
   border-radius: 5px;
 }
+
+#salvar-tarefas{
+  background-color: burlywood;
+  border: 4px solid burlywood;
+  border-radius: 5px;
+  
+}
+
 #apaga-tudo {
   background-color: burlywood;
   border-radius: 10px;
