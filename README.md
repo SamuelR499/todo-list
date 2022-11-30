@@ -7,7 +7,7 @@ Esse é o projeto da sessão 5 do curso de **Desenvolvimento Web** da [trybe](ht
 
 Este projeto é uma página web, que representa uma lista de tarefas, sendo possível adicionar e remover tarefas.
 
-<img src="./todo-list.png" width="350" />
+<img src="./todo-list.png" width="400" />
 
 
 ## 🧑‍💻 Técnicas e Tecnologias
