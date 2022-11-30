@@ -49,3 +49,9 @@ Agora que já tem a pasta do projeto na sua máquina, você pode usar a extensã
 Uma guia no navegador irá abrir, geralmente [neste endereço](http://localhost:3000/).
 
 Pronto, agora você consegue acessar a pagina.
+
+--
+
+## Entrega
+  - `3` dias de projeto.
+  - Data do ultimo commit durante o desenvolvimento do projeto: `23/03/22`.
